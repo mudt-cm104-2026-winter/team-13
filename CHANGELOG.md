@@ -9,3 +9,4 @@ Example:
 ## Unreleased
 
 - Start from the repository template
+- Customize app topic to student reading list
