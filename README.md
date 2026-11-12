@@ -29,6 +29,7 @@ No real names: this repository is public. -->
 
 | GitHub | Role |
 |danielzeeba|reviewer|
+|SanketRohilla|proetct-main/rules|
 
 ## How we work
 
