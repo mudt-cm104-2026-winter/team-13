@@ -1,7 +1,4 @@
-"""Things to bring: the starting point of your team project.
-
-This is an example. Replace the topic with your own: change the fields,
-the texts and the page. Grow it one pull request at a time.
+"""Reading List: our team reading tracker.
 
 What happens where:
 - main.py      the web part: which address shows what (the "routes")
@@ -21,7 +18,7 @@ from . import storage
 
 HERE = Path(__file__).parent
 
-app = FastAPI(title="Things to bring")
+app = FastAPI(title="Reading List")
 app.mount("/static", StaticFiles(directory=HERE / "static"), name="static")
 templates = Jinja2Templates(directory=HERE / "templates")
 
@@ -35,8 +32,8 @@ def show_list(request: Request):
 
 
 @app.post("/add")
-def add(thing: str = Form(...), person: str = Form(...)):
-    """The form on the start page sends its fields here."""
-    storage.add_entry(thing=thing.strip(), person=person.strip())
+def add(title: str = Form(...), author: str = Form(...)):
+    """The form on the start page sends book title and author here."""
+    storage.add_entry(title=title.strip(), author=author.strip())
     # Back to the start page. 303 tells the browser: load it with GET.
     return RedirectResponse("/", status_code=303)

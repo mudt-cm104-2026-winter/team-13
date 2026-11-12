@@ -17,10 +17,10 @@ def all_entries():
     return list(_entries)
 
 
-def add_entry(thing, person):
-    """Store a new entry and return it."""
+def add_entry(title, author):
+    """Store a new book entry and return it."""
     global _next_id
-    entry = {"id": _next_id, "thing": thing, "person": person}
+    entry = {"id": _next_id, "title": title, "author": author}
     _entries.append(entry)
     _next_id += 1
     return entry
