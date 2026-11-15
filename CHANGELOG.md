@@ -10,3 +10,4 @@ Example:
 
 - Start from the repository template
 - Customize app topic to student reading list
+- Added remove book button to delete entries from the reading list

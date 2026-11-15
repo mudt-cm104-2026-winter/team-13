@@ -24,3 +24,9 @@ def add_entry(title, author):
     _entries.append(entry)
     _next_id += 1
     return entry
+
+
+def delete_entry(entry_id):
+    """Remove a book entry by its id."""
+    global _entries
+    _entries = [entry for entry in _entries if entry["id"] != entry_id]
