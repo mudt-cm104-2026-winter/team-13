@@ -12,4 +12,5 @@ Example:
 - Customize app topic to student reading list
 - Added remove book button to delete entries from the reading list
 - Added a total book count
+- Added reading list documentation guide in docs/
 - Added clear all button to remove all book entries (#14)
