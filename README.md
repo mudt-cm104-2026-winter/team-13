@@ -31,7 +31,7 @@ No real names: this repository is public. -->
 |---|---|
 |danielzeeba|reviewer|
 |SanketRohilla|proetct-main/rules|
-|Judecrux|contributor|
+|Judecrux|documentation and developer|
 
 ## How we work
 
