@@ -14,3 +14,4 @@ Example:
 - Added a total book count
 - Added reading list documentation guide in docs/
 - Added a sort alphabetically feature
+- Added clear all button to remove all book entries (#14)

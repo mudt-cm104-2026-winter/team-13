@@ -30,3 +30,9 @@ def delete_entry(entry_id):
     """Remove a book entry by its id."""
     global _entries
     _entries = [entry for entry in _entries if entry["id"] != entry_id]
+
+
+def clear_entries():
+    """Remove all book entries."""
+    global _entries
+    _entries = []
