@@ -14,7 +14,7 @@ _next_id = 1
 
 def all_entries():
     """Return a copy of all entries, oldest first."""
-    return list(_entries)
+    return sorted(_entries, key=lambda book: book["title"].lower())
 
 
 def add_entry(title, author):
