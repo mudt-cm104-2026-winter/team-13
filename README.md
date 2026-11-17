@@ -1,12 +1,10 @@
 # Team project
 
-<!-- Replace the title with your project name. -->
+Reading List
 
 ## What this is
-
-<!-- One or two sentences: what does your app do, and who is it for?
-Right now it is the example "Things to bring". Replace it with your topic. -->
-
+Reading List is an app for our teamm to keep shared list of books we plan on reading together.
+You can add a book with an author, remove one or clear the whole lists and all books are displayed on the app
 ## How to run it
 
 You need Python 3.10 or newer.
